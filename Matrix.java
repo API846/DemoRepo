@@ -18,7 +18,7 @@ public class Matrix {
      	    	       {  
      	    			   c[i][j]=A[i][j]+B[i][j];
      	    	        
-     	    		   System.out.print(c[i][j]+" ");
+     	    		   System.out.print("Result of addition of matrices:"+c[i][j]+" ");
      	             }
      	    	      System.out.println(" ");
      	             }
@@ -32,7 +32,7 @@ public class Matrix {
 	    	       {  
 	    			   c[i][j]=A[i][j]-B[i][j];
 	    	        
-	    		   System.out.print(c[i][j]+" ");
+	    		   System.out.print("Result of subtraction of matrices:"+c[i][j]+" ");
 	             }
 	    	      System.out.println(" ");
 	             }
@@ -47,7 +47,7 @@ public class Matrix {
      	    		   {
      	    			   c[i][j]+=A[i][k]*B[k][j];
      	    		   }
-     	    		   System.out.print(c[i][j]+" ");
+     	    		   System.out.print("Result of multiplication of matrices:"+c[i][j]+" ");
      	    	   }
      	    	   System.out.println(" ");
      	       }
