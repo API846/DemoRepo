@@ -11,7 +11,7 @@ public class Reverse {
 	      
 		System.out.println(rev);
 
-          System.out.println("This is the Revserse String");
+          System.out.println("This is the Revserse String is:");
 
 	}
 
