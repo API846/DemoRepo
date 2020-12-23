@@ -11,21 +11,21 @@ public class Matrix {
             int a=3;
             switch(a)
             {
-                case 1:System.out.println("Addition of 2 matrices");
+                case 1:System.out.println("Addition of 2 matrices code");
                      for(i=0;i<r1;i++)
      	             {
      	    	       for(j=0;j<c2;j++)
      	    	       {  
      	    			   c[i][j]=A[i][j]+B[i][j];
      	    	        
-     	    		   System.out.print("Result of addition of matrices:"+c[i][j]+" ");
+     	    		   System.out.print("Result of addition of matrices :"+c[i][j]+" ");
      	             }
      	    	      System.out.println(" ");
      	             }
      	    	 
      	    	   break;
      	    	   
-                case 2:System.out.println("Subtraction of 2 matrices");
+                case 2:System.out.println("Subtraction of 2 matrices code");
                 for(i=0;i<r1;i++)
 	             {
 	    	       for(j=0;j<c2;j++)
@@ -37,7 +37,7 @@ public class Matrix {
 	    	      System.out.println(" ");
 	             }
                 break;
-                case 3:System.out.println("Multiplication of 2 matrices");
+                case 3:System.out.println("Multiplication of 2 matrices code");
                 for(i=0;i<r1;i++)
      	       {
      	    	   for(j=0;j<c2;j++)
@@ -52,7 +52,7 @@ public class Matrix {
      	    	   System.out.println(" ");
      	       }
                 break;
-                case 4:System.out.println("Square of a matrix");
+                case 4:System.out.println("Square of a matrix code");
                 for(i=0;i<r1;i++)
 	             {
 	    	       for(j=0;j<c2;j++)
